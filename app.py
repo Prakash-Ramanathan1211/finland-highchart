@@ -55,6 +55,7 @@ def api_add_data():
     result_data = business.add_row(Lake, Area)
 
     return jsonify(result)
+    
 
 
 if __name__ == "__main__":
